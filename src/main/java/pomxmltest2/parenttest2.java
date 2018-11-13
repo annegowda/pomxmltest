@@ -14,5 +14,11 @@ public class parenttest2 {
 	public void m12() {
 		System.out.println("im test-4");
 	}
+	
+	@Test
+	public void m13() {
+		System.out.println("im test-13");
+	}
+
 
 }
