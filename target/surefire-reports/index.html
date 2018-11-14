@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">7 methods,   7 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,12 +102,12 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="package1.Parenttest" hash-for-method="m11">m11</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="pomxmltest2.parenttest2" hash-for-method="m11">m11</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="pomxmltest2.parenttest2" hash-for-method="m11">m11</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="package1.Parenttest" hash-for-method="m11">m11</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -123,6 +123,16 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="pomxmltest2.parenttest2" hash-for-method="m13">m13</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="package1.Parenttest" hash-for-method="m13">m13</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="package1.Parenttest" hash-for-method="m144">m144</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -186,6 +196,20 @@
                   <span class="method-name">m12</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="m13">
+                  </a> <!-- m13 -->
+                  <span class="method-name">m13</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="m144">
+                  </a> <!-- m144 -->
+                  <span class="method-name">m144</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
@@ -241,32 +265,40 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(7);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'm11')
 data.setCell(0, 2, 'package1.Parenttest')
-data.setCell(0, 3, 5);
+data.setCell(0, 3, 10);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'm13')
-data.setCell(1, 2, 'pomxmltest2.parenttest2')
-data.setCell(1, 3, 1);
+data.setCell(1, 1, 'm12')
+data.setCell(1, 2, 'package1.Parenttest')
+data.setCell(1, 3, 0);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'm12')
-data.setCell(2, 2, 'package1.Parenttest')
+data.setCell(2, 2, 'pomxmltest2.parenttest2')
 data.setCell(2, 3, 0);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'm12')
+data.setCell(3, 1, 'm13')
 data.setCell(3, 2, 'pomxmltest2.parenttest2')
 data.setCell(3, 3, 0);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'm11')
-data.setCell(4, 2, 'pomxmltest2.parenttest2')
+data.setCell(4, 1, 'm13')
+data.setCell(4, 2, 'package1.Parenttest')
 data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'm11')
+data.setCell(5, 2, 'pomxmltest2.parenttest2')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'm144')
+data.setCell(6, 2, 'package1.Parenttest')
+data.setCell(6, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 ms</span>
+              <span class="suite-total-time">Total running time: 10 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -299,22 +331,30 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">m12</span>
-                <span class="method-start">6 ms</span>
+                <span class="method-start">11 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">m13</span>
+                <span class="method-start">11 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">m144</span>
+                <span class="method-start">12 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">pomxmltest2.parenttest2</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">m11</span>
-                <span class="method-start">7 ms</span>
+                <span class="method-start">13 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">m12</span>
-                <span class="method-start">7 ms</span>
+                <span class="method-start">13 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">m13</span>
-                <span class="method-start">7 ms</span>
+                <span class="method-start">14 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

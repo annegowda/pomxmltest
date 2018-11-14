@@ -6,5 +6,5 @@
       <class name="package1.Parenttest"/>
       <class name="pomxmltest2.parenttest2"/>
     </classes>
-  </test>  <!-- Test --->
+  </test> <!-- Test -->
 </suite> <!-- Suite -->
